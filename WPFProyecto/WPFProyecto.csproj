@@ -8,11 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="MVVM\View\helmet.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Fonts\" />
     <Folder Include="Images\" />
     <Folder Include="MVVM\Model\" />
-    <Folder Include="MVVM\ViewModel\" />
-    <Folder Include="MVVM\View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MVVM\View\helmet.png" />
   </ItemGroup>
 
 </Project>
